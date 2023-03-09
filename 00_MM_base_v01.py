@@ -112,6 +112,7 @@ while tickets_sold < MAX_TICKETS:
     # calculate ticket cost
     ticket_cost = calc_ticket_price(age)
     print("Age: {}, Ticket price: ${:.2f}".format(age, ticket_cost))
+    print(f'You chose {pay_method}')
     
 #output number of tickets sold
 if tickets_sold == MAX_TICKETS:
