@@ -47,3 +47,4 @@ print("---- Ticket Cost / Profit ----")
 
 # output total ticket sales and profit
 print("Total Ticket Sales: ${:.2f}".format(total))
+print(f"Profit: ${profit:.2f}")
